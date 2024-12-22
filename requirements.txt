@@ -12,9 +12,9 @@ xgboost==1.7.6
 # Streamlit
 streamlit==1.25.0
 
-# Additional Dependencies
+# TensorFlow Dependencies
 protobuf==4.24.3
-h5py==3.10.0
+h5py>=3.11.0
 opt_einsum==3.4.0
 grpcio==1.56.2
 termcolor==2.5.0
