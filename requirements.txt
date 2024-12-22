@@ -6,11 +6,10 @@ scipy==1.11.3
 
 # Machine Learning Libraries
 tensorflow==2.18.0
-tensorflow-io-gcs-filesystem==0.32.0
-xgboost==1.7.6
+tensorflow-io-gcs-filesystem==0.37.1  # Disesuaikan dengan versi yang ditemukan
 
 # Streamlit and Visualization
-streamlit==1.24.1
+streamlit==1.25.0
 matplotlib==3.8.0
 altair==5.0.1
 pydeck==0.9.1
