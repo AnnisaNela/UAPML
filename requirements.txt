@@ -1,6 +1,6 @@
 # Machine Learning Libraries
 tensorflow==2.18.0
-tensorflow-addons==0.19.0
+tensorflow-addons==0.20.0
 xgboost==1.6.2
 scikit-learn==1.2.0
 
