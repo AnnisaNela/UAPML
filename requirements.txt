@@ -6,7 +6,7 @@ scipy==1.11.3
 
 # Machine Learning Libraries
 tensorflow==2.18.0
-tensorflow-io-gcs-filesystem==0.37.1  # Disesuaikan dengan versi yang ditemukan
+tensorflow-io-gcs-filesystem==0.37.1
 
 # Streamlit and Visualization
 streamlit==1.25.0
@@ -30,6 +30,6 @@ threadpoolctl==3.2.0
 markdown==3.5.0
 six==1.16.0
 jinja2==3.1.2
-grpcio==1.57.1
+grpcio==1.56.2  # Versi yang lebih stabil dan kompatibel
 werkzeug==3.0.1
 typing_extensions==4.8.0
