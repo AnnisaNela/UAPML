@@ -1,28 +1,22 @@
 # Machine Learning Libraries
 tensorflow==2.18.0
-tensorflow-addons==0.20.0
 xgboost==1.6.2
 scikit-learn==1.2.0
 
 # Data Manipulation and Processing
-pandas==1.5.0
-numpy==1.23.0
+pandas==1.5.3
+numpy==1.23.5
 
 # Model Serialization
-joblib==1.2.0
+joblib==1.3.0
 
 # Visualization
-matplotlib==3.7.0
+matplotlib==3.7.1
 
 # Streamlit for Deployment
-streamlit==1.24.0
+streamlit==1.25.0
 
-# Optional Dependencies (Ensure Smooth Execution)
+# Optional Dependencies
 protobuf==3.20.3
-h5py==3.8.0
+h5py==3.9.0
 pillow==9.4.0
-
-# Google Colab Dependencies
-notebook>=6.4.12
-ipython==7.34.0
-ipywidgets==8.1.0
