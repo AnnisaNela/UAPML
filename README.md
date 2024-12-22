@@ -13,3 +13,17 @@ Proyek ini bertujuan untuk memprediksi kelas harga rumah berdasarkan kategori Lo
 
 **Link Dataset** 
 https://www.kaggle.com/datasets/howisusmanali/house-prices-2023-dataset
+
+##Langkah Instalasi
+```
+python -m pip install virtualenv
+python -m venv virtvenv
+cd Scraping/myenv/Scripts
+activate.bat
+pip install -r requirements.txt
+```
+
+###Run Streamlit App
+```
+streamlit run web.py
+```
