@@ -27,3 +27,11 @@ pip install -r requirements.txt
 ```
 streamlit run web.py
 ```
+
+## Deskripsi Model 
+### FeedForward Neural Network 
+### Random Forest
+### XGBoost
+
+## Link Live Demo
+https://housepricepredictionclass.streamlit.app/
