@@ -60,6 +60,20 @@ Model ini merupakan metode berbasis ensemble learning. Random Forest membangun s
 ![image](https://github.com/user-attachments/assets/a0b065c3-4285-49ea-b7ff-0d7eeafe164f)
 
 ### XGBoost
+**Architechture**
+![Architecture-and-inner-flow-of-XGBoost-model-for-boosting-the-performance-of-soil-carbon](https://github.com/user-attachments/assets/d4bfb972-2e4b-4bc3-8f33-d61116032e9c)
+
+**Preprocessing**
+Training: Model dilatih dengan data pelatihan (X_train dan y_train), di mana setiap pohon bertujuan untuk meminimalkan kesalahan (residual error) dari prediksi sebelumnya.
+Objective Function:
+Menggunakan fungsi loss logaritmik (log-loss) untuk klasifikasi multikelas.
+Memaksimalkan probabilitas kelas target yang benar dengan pendekatan softmax.
+
+**Modelling**
+Model ini merupakan metode boosting berbasis pohon (tree-based boosting algorithm). 
+
+**Model Evaluation**
+![image](https://github.com/user-attachments/assets/0da39c07-1afe-4e23-b230-372667952da8)
 
 ## Link Live Demo
 https://housepricepredictionclass.streamlit.app/
